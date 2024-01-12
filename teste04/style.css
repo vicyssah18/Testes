@@ -1,0 +1,106 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;500&family=Press+Start+2P&display=swap');
+ *  {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  } 
+body { 
+    min-height: 100vh;
+    min-width: 400px;
+    overflow: hidden;
+    background: pink;
+} 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 110px;
+    padding: 0 5%;
+    color: white;
+    font-size: 18px;
+ } 
+header .logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: auto;
+ } 
+header nav, header .menu { 
+    display: flex;
+    align-items: center;
+} 
+header nav .menu li a { 
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 40px;
+    border-radius: 0.4rem;
+    transition: color 0.4s ease;
+} 
+header nav .menu li a:hover { 
+    color: #ffb331;
+} 
+header nav #toggle { 
+    font-size: 1.3rem;
+    margin-left: 80px;
+    cursor: pointer;
+} 
+.home { 
+    padding: 0 5%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+} 
+.home h1 {
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 3.25rem;
+    font-weight: 600;
+ } 
+ .home p { 
+    font-size: 0.85rem;
+    width: 600px;
+    font-weight: 300;
+    margin: -5px auto 25px;
+    text-align: center;
+ } 
+ .home button { 
+    background: #310223;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.35s ease, border-color 0.35s ease;
+ } 
+.home button:hover {
+     background: transparent;
+     border-color: white;
+ } 
+.home .images .img-1,
+.home .images .img-2,
+.home .images .img-3,
+.home .images .img-4 { 
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+} 
+.home .images .img-1 { 
+    background: url(image/);
+    background-position: center;
+    background-size: cover;
+} 
